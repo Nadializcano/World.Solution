@@ -1,0 +1,6 @@
+<h1>Countries</h1>
+
+@foreach (var country in Model)
+{
+  <h3><a href='/countries/@country.GetId()'>@country.GetName()</a></h3>
+}
